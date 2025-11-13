@@ -39,7 +39,7 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 
 ## Architecture
 
-<img src="./assets/diagram.png" alt="Architecture Diagram" width="400">
+<img src="architecture_diagram.PNG" alt="Architecture Diagram" width="400">
 
 **Work flow:**
 1. User uploads image on frontend
@@ -98,7 +98,7 @@ spring.jpa.show-sql=true
 
 ## Project Structure
 
-<img src="./assets/diagram.png" alt="Architecture Diagram" width="400">
+<img src="Screenshot 2025-11-13 185822.png" alt="Architecture Diagram" width="400">
 
 ---
 
