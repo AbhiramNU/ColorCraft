@@ -3,3 +3,6 @@ venv*/
 env*/
 *.pyc
 __pycache__/
+*.pt
+*.caffemodel
+*.pth
