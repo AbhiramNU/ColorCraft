@@ -15,7 +15,12 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 - [License](#license)
 
 ---
+## ScreenShots
+<img src="./Demo1.png" alt="Architecture Diagram" width="400">
 
+<img src="./Demo2.png" alt="Architecture Diagram" width="400">
+
+---
 ## Features
 - **Drag-and-drop or file upload** for original images
 - **AI-powered image colorization** using deep learning models
@@ -38,7 +43,8 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 ---
 
 ## Architecture
-<img></img>
+<img src="./Architecture.png" alt="Architecture Diagram" width="400">
+
 
 **Work flow:**
 1. User uploads image on frontend
@@ -53,3 +59,79 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 
 ### 1. Clone the Repository
 git clone https://github.com/AbhiramNU/ColorCraft.git
+
+### 2. Install Dependencies
+- **Frontend:**
+    ```
+    cd reactapp
+    npm install
+    ```
+- **Backend (Spring Boot):**
+    - Ensure Java 11+
+- **Python (Flask Service):**
+    ```
+    cd python-colorizer
+    pip install -r requirements.txt
+    ```
+
+### 3. Configure MySQL Connection
+Edit `src/main/resources/application.properties`:
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/colorizer_db
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+```
+
+### 4. Environment Setup
+- Start MySQL server
+- Run Flask colorizer
+    ```
+    python app.py
+    ```
+- Run Spring Boot backend
+    ```
+    mvn spring-boot:run
+    ```
+- Run React frontend
+    ```
+    npm start
+    ```
+
+---
+
+## Project Structure
+
+<img src="./Project Structure.png" alt="Architecture Diagram" width="400">
+
+
+---
+
+## API Overview
+
+| Endpoint   | Method | Description                   | Request            | Response     |
+|------------|--------|------------------------------|--------------------|--------------|
+| `/api/colorize` | POST   | Upload image, get colorized result | multipart file upload | image/jpeg    |
+
+---
+
+## Contributing
+
+We welcome feedback, bug reports, and feature requests!
+Want to add new models or UI improvements? Fork and submit a PR.
+
+- Fork the repository
+- Clone your fork
+- Create a feature branch
+- Commit changes and push
+- Open a pull request
+
+---
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
