@@ -43,8 +43,9 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 ---
 
 ## Architecture
+<div style="background-color: white; padding: 10px; display: inline-block;">
 <img src="./Architecture.png" alt="Architecture Diagram" width="400">
-
+</div>
 
 **Work flow:**
 1. User uploads image on frontend
