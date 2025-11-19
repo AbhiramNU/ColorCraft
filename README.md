@@ -15,8 +15,8 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 - [License](#license)
 
 ---
-## ScreenShots
-<img src="./Demo1.png" alt="Architecture Diagram" width="400">
+## Screenshots
+<img src="./Demo1.png" alt="Screenshots" width="400">
 
 <img src="./Demo2.png" alt="Architecture Diagram" width="400">
 
@@ -43,9 +43,10 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 ---
 
 ## Architecture
-<div style="background-color: white; padding: 10px; display: inline-block;">
-<img src="./Architecture.png" alt="Architecture Diagram" width="400">
-</div>
+<p style="background-color: white; padding: 10px; display: inline-block;">
+  <img src="./Architecture.png" width="400">
+</p>
+
 
 **Work flow:**
 1. User uploads image on frontend
