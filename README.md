@@ -43,9 +43,9 @@ A full-stack image colorization system: Seamlessly upload, process, and manage i
 ---
 
 ## Architecture
-<p style="background-color: white; padding: 10px; display: inline-block;">
-  <img src="./Architecture.png" width="400">
-</p>
+
+  <img src="./Architecture.drawio.png" width="400">
+
 
 
 **Work flow:**
