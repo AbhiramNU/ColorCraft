@@ -14,7 +14,7 @@ public class ColorizerappApplication {
         return "Spring Boot is running successfully!";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
         SpringApplication.run(ColorizerappApplication.class,args);
     }
 }
