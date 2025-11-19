@@ -103,7 +103,7 @@ spring.jpa.show-sql=true
 
 ## Project Structure
 
-<img src="./Project Structure.png" alt="Architecture Diagram" width="400">
+<img src="./ProjectStructure.png" alt="Architecture Diagram" width="400">
 
 
 ---
